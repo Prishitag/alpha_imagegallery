@@ -1,0 +1,80 @@
+/* Apply a background color to the body */
+body {
+    font-family: Arial, sans-serif; /* Set a nice font for the page */
+    background-color: #f4f4f4; /* Light gray background */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style the form container */
+form {
+    background: white; /* White background for the form */
+    padding: 20px; /* Space inside the form */
+    border-radius: 28px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; 
+}
+
+/* Style the headings */
+h2 {
+    text-align: center; 
+    align-items: top;
+    color: #333; 
+}
+
+/* Style the labels */
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space below the label */
+    color: #555; /* Medium gray color */
+}
+
+/* Style the input fields */
+input {
+    width: 80%; /* Full width of the form */
+    padding: 8px; /* Space inside the input */
+    margin-bottom: 5px; /* Space below the input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Change input border color on focus */
+input:focus {
+    border-color: #66afe9; /* Light blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Style the submit button */
+button {
+    margin: 10%;
+    width: 70%; /* Full width of the form */
+    padding: 10px; /* Space inside the button */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger text */
+}
+
+/* Change button background on hover */
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Style error messages */
+/* span {
+    font-size: 12px; /* Smaller text for error messages 
+    display: block; /* Make error messages block elements 
+ }    */
+
+
+#successMessage{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

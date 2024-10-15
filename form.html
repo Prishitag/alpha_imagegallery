@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="/form.css" />
+</head>
+
+<body>
+    <div>
+        <div>
+            <h2>SIGN UP</h2>
+        </div>
+        <div>
+            <form id="signUp"> <!-- Changed ID to match JS -->
+                <label for="username">User Name:</label> <!-- Updated for attribute -->
+                <input type="text" placeholder="Enter your name" id="username" required>
+                <span id="usernameError" style="color:red;"></span>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Email" id="email" required>
+                <span id="emailError" style="color:red;"></span>
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" placeholder="6+ strong characters" id="password" required>
+                <span id="passwordError" style="color:red;"></span>
+                <br><br>
+
+                <label for="retypepassword">Retype Password:</label> <!-- Corrected for attribute -->
+                <input type="password" placeholder="6+ strong characters" id="retypepassword" required>
+                <span id="retypePasswordError" style="color:red;"></span>
+                <br><br>
+
+                <button type="submit">Create an account</button>
+            </form>
+            <div id="successMessage" style="color: green;"></div> <!-- Added success message area -->
+        </div>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+
+</html>

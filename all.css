@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(45deg,black,darkgray);
+}
+header{
+    background-color: black;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: end;
+    margin-bottom: 0;
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+ul{
+    margin: 0;
+    padding-top: 15px;
+}
+ul a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+ul a:hover{
+    color: rgb(162, 204, 209);
+}
+.but{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin:3%;
+    gap: 60px;
+    border: 5px;
+}
+.but button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px;
+    font-weight: 750;
+    background-color: rgb(240, 151, 170);
+}
+.but button:hover{
+    cursor: pointer;
+    background-color: crimson;
+    cursor: pointer;
+    transition: scale(1.1) ease-in-out;
+    font-weight: 900;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px;
+    margin: 10px;
+}
+.row img{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row img:hover{
+    width: 30%;
+    /* transition: ease-in-out .5s; */
+    
+}
+*{
+    /* background: linear-gradient(40deg, #fff,#000); */
+}
